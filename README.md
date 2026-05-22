@@ -1,2 +1,2 @@
 # GLD
-A nice website is loading. . .
+A nice website is loading with new style . . .
