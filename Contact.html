@@ -18,49 +18,72 @@
         <nav class="main-nav">
             <a href="Arxikh.html">Αρχική</a>
             <form action="">
-                <label for="LExercise">Λυμένες Ασκήσεις:</label>
+                <label for="LExercise"></label>
                 <select id="LExercise" name="LExercise" onchange="location = this.value;">
-                    <option value="exercises/E1.html">ΠΡΩΤΕΣ</option>
-                    <option value="exercises/E2.html">ΔΕΥΤΕΡΕΣ</option>
-                    <option value="exercises/E3.html">ΤΡΙΤΕΣ</option>
-                    <option value="exercises/E4.html">ΤΕΤΑΡΤΕΣ</option>
+                    <option value="">ΛΥΜΕΝΕΣ ΑΣΚΗΣΕΙΣ</option>
+                    <option value="exercises/E1.pdf">ΠΡΩΤΕΣ</option>
+                    <option value="exercises/E2.pdf">ΔΕΥΤΕΡΕΣ</option>
+                    <option value="exercises/E3.pdf">ΤΡΙΤΕΣ</option>
+                    <option value="exercises/E4.pdf">ΤΕΤΑΡΤΕΣ</option>
+                    <option value="exercises/E5.pdf">ΠΕΜΠΤΕΣ</option>
                 </select>
             </form>
             <form action="">
-                <label for="Units">Ενότητες:</label>
+                <label for="Units"></label>
                 <select id="Units" name="Units" onchange="location = this.value;">
-                    <option value="exercises/Uni1.html">ΠΡΩΤΗ</option>
-                    <option value="exercises/Uni2.html">ΔΕΥΤΕΡΗ</option>
-                    <option value="exercises/Uni3.html">ΤΡΙΤΗ</option>
-                    <option value="exercises/Uni4.html">ΤΕΤΑΡΤΗ</option>
+                    <option value="">ΕΝΟΤΗΤΕΣ</option>
+                    <option value="Units/Uni1.pdf">ΠΡΩΤΗ</option>
+                    <option value="Units/Uni2.pdf">ΔΕΥΤΕΡΗ</option>
+                    <option value="Units/Uni3.pdf">ΤΡΙΤΗ</option>
+                    <option value="Units/Uni4.pdf">ΤΕΤΑΡΤΗ</option>
+                    <option value="Units/Uni5.pdf">ΠΕΜΠΤΗ</option>
                 </select>
             </form>
             <a href="Contact.html">Επικοινωνία</a>
         </nav>
     </header>
-
     <main>
 
         <section class="contact-intro">
             <h1>ΜΗΝ ΔΙΣΤΑΣΕΤΑΙ ΝΑ ΕΠΙΚΟΙΝΩΝΙΣΕΤΕ ΜΑΖΙ ΜΑΣ!!!</h1>
             <p>
-                Ελάτε σε επαφή μαζί μας και λύστε κάθε απορία σας με τη βοήθεια
-                ειδικών του αντικειμένου.Να είστε σίγουροι ότι θα σας καθοδηγήσουμε
-                σωστά,βελτιώνοντας τις μέχρι τώρα γνώσεις σας και μαθένοντας σας πράγματα που τύχον δεν γνωρίζατε.
+                Η παρακάτω φόρμα επικοινωνίας δίνει την ευκαιρία σε εσάς να μιλήσετε μαζί μας.Να μας προτείνετε
+                ενδεχομένως μία νέα κατηγορία που
+                δεν σκεφτίκαμε εμείς να ενσωματώσουμε και θεωρείτε ότι θα είναι χρήσιμη να προσθεθεί.Να μας δώσετε
+                feedback
+                και γενικά αν είστε κάποιος/ποια που εξιδικεύται στο ίδιο αντικείμενο με αυτό της σελίδας και μπορεί να
+                συνεισφαίρει γράφοντας για
+                πάραδειγμα ένα
+                σχετικό άρθρο θα εκτιμήθει και θα έρθουμε σε επικοινωνία για τυχόν αλλαγές.
             </p>
         </section>
         <br>
+        <h3>ΒΗΜΑΤΑ ΕΠΙΚΟΙΝΩΝΙΑΣ:</h3>
+        <ol>
+            <li>Συμπλήρωση του Όνοματος</li>
+            <li>Συμπλήρωση του Επιθέτου</li>
+            <li>Συμπλήρωση του E-Mail</li>
+            <li>Επιλογή κατηγορίας για επικοινωνία(Feedback,Πρόταση Νέας Κατηγορίας,Συνεισφορά στο Project)</li>
+            <li>Κουμπί Υποβολής</li>
+        </ol>
         <form class="contact form">
-            <label for="FN">ΟΝΟΜΑ</label>:</label><br>
+            <label for="FN">ΟΝΟΜΑ:</label><br>
             <input type="text" id="FN" name="FN" autocomplete="off" placeholder="Όνομα"><br>
             <label for="LN">ΕΠΙΘΕΤΟ:</label><br>
             <input type="text" id="LN" name="LN" autocomplete="off" placeholder="Επίθετο"><br>
             <label for="E-Mail">E-Mail:</label><br>
             <input type="email" id="E-MAIL" name="E-Mail" autocomplete="off" placeholder="E-Mail"><br>
-            <label for="Message">ΘΕΜΑ:</label><br>
-            <textarea type="text" id="Message" name="Message" cols="
-        30" rows="10" autocomplete="off" placeholder="Θέμα"></textarea><br>
+            <label for="Message">FeedBack</label>
+            <input type="radio" id="Message" name="BTN">
+            <br>
+            <label for="DR">Πρόταση Νέας Κατηγορίας</label>
+            <input type="radio" id="DR" name="BTN">
+            <br>
+            <label for="CH">Συνεισφορά στο Project</label>
+            <input type="radio" id="CH" name="BTN">
+            <br>
             <button>ΥΠΟΒΟΛΗ</button>
+            <br>
         </form>
     </main>
     <br>
