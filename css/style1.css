@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #dedcdc;
+}
+
+.site-header {
+    background-color: #003771;
+
+}
+
+.main-nav {
+    background-color: #00689c;
+}
+
+.odd {
+    color: #F8F8F8;
+}
+
+#LExercise {
+    background-color: #00689c;
+    color: #F8F8F8;
+}
+
+#Units {
+    background-color: #00689c;
+    color: #F8F8F8;
+}
+
+.main-content {
+    background-color: #dedcdc;
+}
+
+.intro {
+    background-color: #00689c;
+}
+
+#h101 {
+    color: #F8F8F8;
+}
+
+#h201 {
+    color: #F8F8F8;
+}
+
+p {
+    color: #526174;
+}
+
+#ps {
+    color: #00689c;
+}
+
+.about-section {
+    background-color: #dedcdc;
+}
+
+.container {
+    background-color: #dedcdc;
+}
+
+.about-intro {
+    background-color: #F8F8F8;
+}
+
+.about.logo {
+    background-color: #F8F8F8;
+}
+
+.features-section {
+    background-color: #F8F8F8;
+}
+
+#features-heading {
+    background-color: #F8F8F8;
+}
+
+#features-heading {
+    color: #00689c;
+}
+
+#h401 {
+    color: #00689c;
+}
+
+.lsts {
+    color: #4A4F5C;
+}
+
+.feature {
+    background-color: #F8F8F8;
+}
+
+#h410 {
+    color: #00689c;
+}
+
+#h411 {
+    color: #00689c;
+}
+
+.container2 {
+    background-color: #dedcdc;
+}
+
+.definition {
+    background-color: #F8F8F8;
+}
+
+.application {
+    background-color: #F8F8F8;
+}
+
+.section-title {
+    color: #00689c;
+}
+
+.site-footer {
+    background-color: #003771;
+}
+
+#h301 {
+    color: #F8F8F8;
+}
+
+.footer-top {
+    background-color: #003771;
+}
+
+.footer-links {
+    color: #F8F8F8;
+}
+
+.flsts {
+    color: #F8F8F8;
+}
+
+a {
+    color: #F8F8F8;
+}
+
+.footer-credits {
+    background-color: #003771;
+}
+
+.footer-bottom {
+    background-color: #003771;
+}
+
+#ps3 {
+    color: #F8F8F8;
+}
+
+.features-section {
+    background-color: #dedcdc;
+}
+
+.learning-results {
+    background-color: #F8F8F8;
+}
+
+.feature {
+    background-color: #F8F8F8;
+}
+
+.content-section {
+    background-color: #F8F8F8;
+}
