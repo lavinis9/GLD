@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>GLD</title>
     <link rel="icon" href="../assets/Favicon.png">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
 </head>
 
 <body>
@@ -16,40 +16,48 @@
         </a>
 
         <nav class="main-nav">
-            <a href="index.html">Αρχική</a>
+            <a href="index.html" class="odd">Αρχική</a>
 
             <form action="">
-                <label for="LExercise"></label>
-                <select id="LExercise" name="LExercise" onchange="location = this.value;">
+                <label for="LExercise" class="odd"></label>
+                <select id="LExercise" name="LExercise" onchange="openPDF(this.value)">
                     <option value="">ΛΥΜΕΝΕΣ ΑΣΚΗΣΕΙΣ</option>
-                    <option value="pages/pdf-viewer.html?file=exercises/E1.pdf">ΠΡΩΤΕΣ</option>
-                    <option value="pages/pdf-viewer.html?file=exercises/E2.pdf">ΔΕΥΤΕΡΕΣ</option>
-                    <option value="pages/pdf-viewer.html?file=exercises/E3.pdf">ΤΡΙΤΕΣ</option>
-                    <option value="pages/pdf-viewer.html?file=exercises/E4.pdf">ΤΕΤΑΡΤΕΣ</option>
-                    <option value="pages/pdf-viewer.html?file=exercises/E5.pdf">ΠΕΜΠΤΕΣ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../exercises/E1.pdf">ΠΡΩΤΕΣ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../exercises/E2.pdf">ΔΕΥΤΕΡΕΣ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../exercises/E3.pdf">ΤΡΙΤΕΣ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../exercises/E4.pdf">ΤΕΤΑΡΤΕΣ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../exercises/E5.pdf">ΠΕΜΠΤΕΣ</option>
                 </select>
             </form>
 
             <form action="">
-                <label for="Units"></label>
-                <select id="Units" name="Units" onchange="location = this.value;">
+                <label for="Units" class="odd"></label>
+                <select id="Units" name="Units" onchange="openPDF(this.value)">
                     <option value="">ΕΝΟΤΗΤΕΣ</option>
-                    <option value="pages/pdf-viewer.html?file=units/Uni1.pdf">ΠΡΩΤΗ</option>
-                    <option value="pages/pdf-viewer.html?file=units/Uni2.pdf">ΔΕΥΤΕΡΗ</option>
-                    <option value="pages/pdf-viewer.html?file=units/Uni3.pdf">ΤΡΙΤΗ</option>
-                    <option value="pages/pdf-viewer.html?file=units/Uni4.pdf">ΤΕΤΑΡΤΗ</option>
-                    <option value="pages/pdf-viewer.html?file=units/Uni5.pdf">ΠΕΜΠΤΗ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../units/Uni1.pdf">ΠΡΩΤΗ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../units/Uni2.pdf">ΔΕΥΤΕΡΗ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../units/Uni3.pdf">ΤΡΙΤΗ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../units/Uni4.pdf">ΤΕΤΑΡΤΗ</option>
+                    <option value="pdfjs/web/viewer.html?file=../../units/Uni5.pdf">ΠΕΜΠΤΗ</option>
                 </select>
             </form>
+            <script>
+                function openPDF(url) {
+                    if (url) {
+                        window.open(url, '_blank');
+                    }
+                }
+            </script>
 
-            <a href="pages/Contact.html">Επικοινωνία</a>
+            <a href="pages/Contact.html" class="odd">Επικοινωνία</a>
         </nav>
     </header>
 
     <main class="main-content">
 
         <section class="intro">
-            <h2 class="intro-title">
+            <h1 class="about-title" id="h101">Καλώς ήρθατε στο GLD</h1>
+            <h2 class="intro-title" id="h201">
                 Ανακάλυψε τον κόσμο της Ψηφιακής Σχεδίασης στα ελληνικά !
             </h2>
         </section>
@@ -65,7 +73,7 @@
 
                     <p class="about-text">
                         Εξέλιξε το σκεπτικό και τις δεξιότητες σου στην
-                        <strong>Ψηφιακή Σχεδίαση</strong> μέσω της προσωπικής σου εξάσκησης και των
+                        <strong id="ps">Ψηφιακή Σχεδίαση</strong> μέσω της προσωπικής σου εξάσκησης και των
                         πρακτικών παραδειγμάτων που παρατίθενται στην ιστοσελίδα μας.
                         Όλο το περιεχόμενο είναι γραμμένο στα ελληνικά και αφορά τα άτομα που θέλουν να ασχοληθούν ειτέ
                         σε επαγγελματικό,είτε σε "χομπίστικο" επίπεδο πάνω στα λογικά κυκλώματα.
@@ -75,50 +83,50 @@
 
 
                 <section class="features-section" aria-labelledby="features-heading">
+                    <div class="learning-results">
+                        <h2 id="features-heading" class="visually-hidden">
+                            Βασικές Πληροφορίες Του Σάϊτ:
+                        </h2>
 
-                    <h2 id="features-heading" class="visually-hidden">
-                        Βασικές Πληροφορίες Του Σάϊτ:
-                    </h2>
-
-                    <h4>Μαθησιακά Αποτελέσματα που θα προσκομήσουν οι χρήστες με την συνεχή επίσκεψη στην ιστοσελίδα
-                    </h4>
-                    <ul>
-                        <li>Να κατανοούν τις βασικές αρχές που διέπουν τα ψηφιακά συστήματα.</li>
-                        <li>Να μπορούν να χειριστούν το κάθε υπολογιστικό συστήμα αριθμήσης.</li>
-                        <li>Να γνωρίζουν την Άλγεβρα Boole και να την εφαρμόζουν.</li>
-                        <li>Να συνδυάζουν βασικές λογικές μονάδες για την πλήρη υλοποίηση σωστών και
-                            πρακτικών
-                            κυκλωμάτων.
-                        </li>
-                    </ul>
-
-
+                        <h4 id="h401">Μαθησιακά Αποτελέσματα που θα προσκομήσουν οι χρήστες με την συνεχή επίσκεψη στην
+                            ιστοσελίδα
+                        </h4>
+                        <ul class="lsts">
+                            <li>Να κατανοούν τις βασικές αρχές που διέπουν τα ψηφιακά συστήματα.</li>
+                            <li>Να μπορούν να χειριστούν το κάθε υπολογιστικό συστήμα αριθμήσης.</li>
+                            <li>Να γνωρίζουν την Άλγεβρα Boole και να την εφαρμόζουν.</li>
+                            <li>Να συνδυάζουν βασικές λογικές μονάδες για την πλήρη υλοποίηση σωστών και
+                                πρακτικών
+                                κυκλωμάτων.
+                            </li>
+                        </ul>
+                    </div>
                     <article class="feature">
-                        <h4>Γενικές Ικανότητες</h4>
+                        <h4 id="h410">Γενικές Ικανότητες</h4>
                         <p>
-                            Θα εκπαιδευτείς να <strong>αναλύεις</strong> σύνθετα προβλήματα και να τα
-                            <strong>ανασυνθέτεις</strong> σε βέλτιστες λύσεις,
+                            Θα εκπαιδευτείς να <strong id="ps">αναλύεις</strong> σύνθετα προβλήματα και να τα
+                            <strong id="ps">ανασυνθέτεις</strong> σε βέλτιστες λύσεις,
                             αποκτώντας στρατηγική σκέψη και προσαρμοστικότητα.
                         </p>
                     </article>
-
-
-                    <h4>Περιεχόμενο</h4>
-                    <ul>
-                        <li>Ψηφιακά συστήματα.</li>
-                        <li>Άλγεβρα Boole.</li>
-                        <li>Λογικές πύλες.</li>
-                        <li>Ελαχιστοποίηση σε επίπεδο πυλών.</li>
-                        <li>Η μέθοδος του χάρτη Karnaugh.</li>
-                        <li>Βασικά συνδυαστικά κυκλώματα.(HA,FA,FFS,LS...)</li>
-                    </ul>
-
+                    <br>
+                    <div class="content-section">
+                        <h4 id="h411">Περιεχόμενο</h4>
+                        <ul class="lsts">
+                            <li>Ψηφιακά συστήματα.</li>
+                            <li>Άλγεβρα Boole.</li>
+                            <li>Λογικές πύλες.</li>
+                            <li>Ελαχιστοποίηση σε επίπεδο πυλών.</li>
+                            <li>Η μέθοδος του χάρτη Karnaugh.</li>
+                            <li>Βασικά συνδυαστικά κυκλώματα.(HA,FA,FFS,LS...)</li>
+                        </ul>
+                    </div>
                 </section>
             </div>
         </section>
 
-        <hr>
-        <section class="container">
+        <br>
+        <section class="container2">
             <div class="definition">
                 <h2 class="section-title">Τι είναι η Λογική Σχεδίαση;</h2>
                 <p class="section-text">
@@ -129,12 +137,11 @@
                     ολοκληρωμένων κυκλωμάτων.
                 </p>
             </div>
-
             <div class="application">
                 <h2 class="section-title">Εφαρμογή</h2>
                 <p class="section-text">
                     Όλα τα κυκλώματα της ιστοσελίδας υλοποιούνται με τη χρήση της
-                    εφαρμογής <strong>Digital Works</strong>.
+                    εφαρμογής <strong id="ps">Digital Works</strong>.
                 </p>
 
                 <a href="https://digital-works.software.informer.com/3.0/" target="_blank">
@@ -143,46 +150,46 @@
             </div>
         </section>
     </main>
-
+    <br>
     <footer class="site-footer">
 
         <div class="footer-top">
             <a href="index.html">
                 <img src="../assets/Favicon.png" alt="Logo" width="100">
             </a>
-            <h3>Ανακάλυψε τον κόσμο της Ψηφιακής Σχεδίασης στα ελληνικά!</h3>
+            <h3 id="h301">Ανακάλυψε τον κόσμο της Ψηφιακής Σχεδίασης στα ελληνικά!</h3>
         </div>
 
         <div class="footer-links">
 
             <ol>
                 <li style="list-style-type:none;"><big><b>Γενικά:</b></big></li>
-                <li value="1"><a href="pages/AboutUs.html">Σχετικά με εμάς</a></li>
-                <li value="2"><a href="pages/Research.html">Επιστημονικά Περιοδικά</a></li>
+                <li value="1" class="flsts"><a href="pages/AboutUs.html">Σχετικά με εμάς</a></li>
+                <li value="2" class="flsts"><a href="pages/Research.html">Επιστημονικά Περιοδικά</a></li>
             </ol>
 
             <ol>
                 <li style="list-style-type:none;"><big><b>Γρήγοροι Σύνδεσμοι:</b></big></li>
-                <li value="1"><a href="index.html">Αρχική</a></li>
-                <li value="2"><a href="pages/Contact.html">Επικοινωνία</a></li>
+                <li value="1" class="flsts"><a href="index.html">Αρχική</a></li>
+                <li value="2" class="flsts"><a href="pages/Contact.html">Επικοινωνία</a></li>
             </ol>
         </div>
         <hr>
         <div class="footer-credits">
-            <p>Special Thanks to University of Ioannina (UoI)</p>
+            <p id="ps3">Special Thanks to University of Ioannina (UoI)</p>
             <a href="https://uoi.gr" target="_blank">
                 <img src="../assets/UOI.png" alt="UoI" width="200">
             </a>
             <hr>
-            <p>Special Thanks to Autonomous Systems Lab (ASL)</p>
+            <p id="ps3">Special Thanks to Autonomous Systems Lab (ASL)</p>
             <a href="https://www.asl.dit.uoi.gr" target="_blank">
                 <img src="../assets/ASL.png" alt="ASL" width="165">
             </a>
         </div>
         <hr>
         <div class="footer-bottom">
-            <p>© GLD – All Rights Reserved</p>
-            <p>Hosted by pointer.gr</p>
+            <p id="ps3">© GLD – All Rights Reserved</p>
+            <p id="ps3">Hosted by pointer.gr</p>
         </div>
 
     </footer>
