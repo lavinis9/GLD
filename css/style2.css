@@ -1,1 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
 
+body {
+    background-color: #dedcdc;
+}
+
+.site-header {
+    background-color: #003771;
+
+}
+
+.main-nav {
+    background-color: #00689c;
+}
+
+.even {
+    color: #F8F8F8;
+
+}
+
+#LExercise {
+    background-color: #00689c;
+    color: #F8F8F8;
+}
+
+#Units {
+    background-color: #00689c;
+    color: #F8F8F8;
+}
+
+.main-content {
+    background-color: #dedcdc;
+}
+
+p {
+    color: #dedcdc;
+}
+
+.main {
+    background-color: #00689c;
+}
+
+.main1 {
+    background-color: #F8F8F8;
+}
+
+.site-footer {
+    background-color: #003771;
+}
+
+.footer-top {
+    background-color: #003771;
+}
+
+
+.footer-links {
+    color: #F8F8F8;
+}
+
+.footer-credits {
+    background-color: #003771;
+}
+
+.footer-bottom {
+    background-color: #003771;
+}
+
+#ok {
+    color: #F8F8F8;
+}
