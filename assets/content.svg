@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="124" viewBox="0 0 160 124" role="img" aria-label="Ανοιχτό βιβλίο με λίστα θεμάτων και λογική πύλη">
+  <g stroke="#108dcc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M80 22 C62 12 34 12 14 20 V92 C34 84 62 84 80 94 Z" fill="#002354"/>
+    <path d="M80 22 C98 12 126 12 146 20 V92 C126 84 98 84 80 94 Z" fill="#002354"/>
+    <path d="M28 36 H62 M28 50 H62 M28 64 H62 M28 78 H50" stroke-width="2.5"/>
+    <path d="M102 36 H110 A14 14 0 0 1 110 64 H102 Z" stroke-width="2.5"/>
+    <path d="M94 42 H102 M94 58 H102 M124 50 H134" stroke-width="2.5"/>
+  </g>
+  <text x="80" y="118" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, Consolas, monospace" font-weight="500" font-size="12" letter-spacing="3" fill="#f8f8f8">AND OR NOT</text>
+</svg>
