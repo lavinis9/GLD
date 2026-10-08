@@ -197,7 +197,7 @@ p {
     border-width: 3px;
     padding: 3px;
     width: 580px;
-    height: 365px;
+    height: 65px;
     box-sizing: border-box;
     box-shadow: 3px 3px 6px;
     padding-left: 20px;
@@ -205,27 +205,29 @@ p {
     padding-bottom: 320px;
     padding-top: 10px;
     margin-left: 115px;
+    margin-top: 10px;
 }
 
 .application {
+    margin-top: -330px;
+    margin-left: 750px;
     background-color: #002354;
     border-style: groove;
     border-radius: 20px;
     border-top: #00162e;
     border-bottom: #00162e;
-    border-right: #00162e;
+    border-left: #00162e;
     border-color: #108dcc;
     border-width: 3px;
     padding: 3px;
     width: 580px;
-    height: 365px;
+    height: 65px;
     box-sizing: border-box;
-    box-shadow: 3px 3px 6px;
+    box-shadow: 4px 4px 6px;
     padding-left: 20px;
     padding-right: 12px;
     padding-bottom: 320px;
     padding-top: 10px;
-    margin-left: 115px;
 }
 
 .section-title {
@@ -255,7 +257,6 @@ p {
 .footer-links {
     color: #108dcc;
 }
-
 .flsts {
     color: #108dcc;
     font-weight: 600;
@@ -330,7 +331,7 @@ a {
 }
 
 .content-section {
-    margin-top: -485px;
+    margin-top: -515px;
     background-color: #002354;
     border-style: groove;
     border-radius: 20px;
@@ -350,7 +351,58 @@ a {
     margin-left: 115px;
 }
 
-.span {
+#span1 {
+    background-color: #00162e;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 944px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+#span2 {
+    background-color: #00162e;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 988px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+
+#span3 {
+    background-color: #00162e;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 994px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+#span4 {
+    background-color: #00162e;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 844px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+#span5 {
+    background-color: #00162e;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 867px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+#span6 {
     background-color: #00162e;
     padding-top: 10px;
     padding-left: 10px;
@@ -359,6 +411,7 @@ a {
     border-radius: 10px;
     margin-bottom: 8px;
 }
+
 
 #ic {
     border-style: initial;
