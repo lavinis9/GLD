@@ -202,6 +202,10 @@ p {
     display: flow-root;
 }
 
+.site-footer a {
+    text-decoration: none;
+}
+
 .about-intro:hover {
     transform: scale(1.01);
     cursor: pointer;
