@@ -559,3 +559,18 @@ a {
     position: absolute;
     margin-top: -110px;
 }
+
+.flsts:hover {
+    text-decoration: underline;
+}
+
+.flsts::after {
+    background-color: #108dcc;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.flsts:hover::after {
+    transform: scaleX(1);
+}
