@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="el">
 
+<head>
+    <meta charset="UTF-8">
+    <title>GLD</title>
+    <link rel="icon" href="../assets/gld-logo.svg">
+    <link rel="stylesheet" href="../css/style4.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="../index.html">
+            <img src="../assets/gld-logo.svg" alt="Logo" width="100">
+        </a>
+
+        <nav class="main-nav">
+            <button class="odd">
+                <a href="../index.html">Αρχική</a>
+            </button>
+            <div class="dropdown1">
+                <div id="LExercise" onchange="openPDF(this.value)">
+                    <button class="drpd">ΛΥΜΕΝΕΣ ΑΣΚΗΣΕΙΣ</button>
+                    <a href="../pdfjs/web/viewer.html?file=../../exercises/E1.pdf" target="_blank">ΠΡΩΤΕΣ</a>
+                    <a href="../pdfjs/web/viewer.html?file=../../exercises/E2.pdf" target="_blank">ΔΕΥΤΕΡΕΣ</a>
+                    <a href="../pdfjs/web/viewer.html?file=../../exercises/E3.pdf" target="_blank">ΤΡΙΤΕΣ</a>
+                    <a href="../pdfjs/web/viewer.html?file=../../exercises/E4.pdf" target="_blank">ΤΕΤΑΡΤΕΣ</a>
+                </div>
+            </div>
+
+            <div class="dropdown2">
+                <div id="Units" onchange="openPDF(this.value)">
+                    <button class="drpd">ΕΝΟΤΗΤΕΣ</button>
+                    <a href="../pdfjs/web/viewer.html?file=../../units/Uni1.pdf" target="_blank">ΠΡΩΤΗ</a>
+                    <a href="../pdfjs/web/viewer.html?file=../../units/Uni2.pdf" target="_blank">ΔΕΥΤΕΡΗ</a>
+                    <a href="../pdfjs/web/viewer.html?file=../../units/Uni3.pdf" target="_blank">ΤΡΙΤΗ</a>
+                    <a href="../pdfjs/web/viewer.html?file=../../units/Uni4.pdf" target="_blank">ΤΕΤΑΡΤΗ</a>
+                </div>
+            </div>
+            <script>
+                function openPDF(url) {
+                    if (url) {
+                        window.open(url, '_blank');
+                    }
+                }
+            </script>
+            <button class="odd">
+                <a href="Contact.html">Επικοινωνία</a>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main-content">
+
+        <section class="about-intro">
+            <h2 class="about-subtitle">Η πρώτη ιστοσελίδα <b>Λογικής Σχεδίασης</b> στον ελληνικό χώρο!!!</h2>
+        </section>
+
+        <section class="about-text">
+            <p class="about-paragraph">
+                Ο κύριος <strong id="divil">στόχος</strong> είναι να παρέχουμε <strong id="divil">ουσιαστική
+                    γνώση</strong>
+                σε αυτό το αντικείμενο για κάθε άτομο που επιθυμεί να ασχοληθεί πραγματικά.
+                Μέσα από την εμπειρία μας στον χώρο των συστημάτων κατώτατου υπολογιστικού επιπέδου, την κατάλληλη ύλη,
+                τα επιστημονικά άρθρα και τα βίντεο επίλυσης ασκήσεων, δίνεται η δυνατότητα σε έναν νέο στον χώρο να
+                αποκτήσει γνώσεις σχετικά με τη <strong id="divil">δομή και τη λειτουργία των υπολογιστικών συστημάτων
+                    και κυκλωμάτων.</strong>
+                Στο πλαίσιο αυτό παίζει μεγάλο ρόλο η σωστή κατανόηση της <strong id="divil"> θεωρίας και των λυμένων
+                    ασκήσεων</strong> χωρίς
+                παρανοήσεις,χωρίς
+                εξάρτηση από αυτοματοποιημένα εργαλεία.
+            </p>
+
+        </section>
+
+        <section class="team">
+            <ul>
+                <h3 id="h302">Η Ομάδα του GLD</h3>
+                <li class="elate">Το project υλοποιήθηκε από φοιτητές του
+                    <a href="https://www.dit.uoi.gr" target="_blank" id="ps">
+                        Τμήματος Πληροφορικής και Τηλεπικοινωνιών
+                        του Πανεπιστημίου Ιωαννίνων
+                    </a>.
+                </li>
+
+                <li class="elate">Κύριος συντάκτης της ιστοσελίδας και αρθρογράφος είναι ο φοιτητής
+                    <strong class="team-member">Λάμπρος Βίνης</strong>.
+                </li>
+                <li class="elate"> Η επιστημονική επιμέλεια έγινε από τον
+                    Επίκουρο Καθηγητή του Τμήματος
+                    <strong class="team-member">Φώτη Βάρτζιωτη</strong> και μέλος της
+                    <a href="https://www.ieee.org/" target="_blank" id="ps">IEEE</a>.
+                </li>
+            </ul>
+        </section>
+
+        <section class="about-images">
+            <div class="image-card">
+                <img class="about-image" src="../assets/ΛογικοΚυκλωμα1.png" alt="Λογικό Κύκλωμα">
+            </div>
+            <div class="image-card">
+                <img class="about-image" src="../assets/Ολοκληρωμένο1.png" alt="Ολοκληρωμένο Κύκλωμα">
+            </div>
+            <div class="image-card">
+                <img class="about-image" src="../assets/ΛογικοΚυκλωμα2.png" alt="Λογικό Κύκλωμα">
+            </div>
+            <div class="image-card">
+                <img class="about-image" src="../assets/2Ολοκληρωμένο.png" alt="Ολοκληρωμένο Κύκλωμα">
+            </div>
+        </section>
+
+    </main>
+    <br>
+    <footer class="site-footer">
+
+        <div class="footer-top">
+            <a href="../index.html">
+                <img src="../assets/gld-logo.svg" alt="Logo" width="100">
+            </a>
+        </div>
+        <h3 id="h301">Ανακάλυψε τον κόσμο της Ψηφιακής Σχεδίασης στα ελληνικά!</h3>
+        <section class="footer-links">
+            <div class="sundesmoi">
+                <ol>
+                    <li style="list-style-type:none;"><big><b>Γρήγοροι Σύνδεσμοι:</b></big></li>
+                    <li value="1" class="flsts"><a href="../index.html">Αρχική</a></li>
+                    <li value="2" class="flsts"><a href="AboutUs.html">Σχετικά Με Έμας</a></li>
+                    <li value="3" class="flsts"><a href="Research.html">Επιστιμονικά Περιοδικά</a></li>
+                </ol>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <div class="footer-credits">
+            <p id="ps3">Special Thanks to University of Ioannina (UoI)</p>
+            <a href="https://uoi.gr" target="_blank">
+                <img src="../assets/UOI.png" alt="UoI" width="180" id="ic" height="200">
+            </a>
+            <hr>
+        </div>
+        <div class="footer-bottom">
+            <p id="ps3">© GLD – All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
