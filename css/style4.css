@@ -371,9 +371,15 @@ a {
 
 .image-card2 {
     background-color: #002354;
+    border-top: #00162e;
+    border-bottom: #00162e;
+    border-left: #00162e;
+    border-color: #108dcc;
     border-style: groove;
     border-radius: 20px;
     padding-top: 13px;
+    margin-left: 625px;
+    margin-top: -411px;
 }
 
 .image-card3 {
@@ -400,25 +406,31 @@ a {
 
 .image-card4 {
     background-color: #002354;
+    border-top: #00162e;
+    border-bottom: #00162e;
+    border-left: #00162e;
+    border-color: #108dcc;
     border-style: groove;
     border-radius: 20px;
     padding-top: 13px;
+    margin-left: 625px;
+    margin-top: -411px;
 }
 
 .about-images .image-card1,
 .about-images .image-card2,
 .about-images .image-card3,
 .about-images .image-card4 {
-    width: 580px;
-    height: 385px;
+    width: 480px;
+    height: 395px;
     box-sizing: border-box;
-    padding: 12px;
+    padding: 11px;
 }
 
 .about-images .about-image {
     display: block;
     width: 100%;
-    height: 330px;
+    height: 320px;
     box-sizing: border-box;
     object-fit: contain;
     object-position: center;
@@ -430,7 +442,7 @@ a {
     border-style: groove;
     border-radius: 20px;
     margin-left: 115px;
-    margin-right: 65px;
+    margin-right: 126px;
 }
 
 .about-subtitle2 {
