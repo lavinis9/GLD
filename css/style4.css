@@ -349,20 +349,13 @@ a {
 
 .image-card1 {
     background-color: #002354;
-    border-top: #00162e;
-    border-bottom: #00162e;
-    border-left: #00162e;
-    border-color: #108dcc;
     border-style: groove;
     border-radius: 20px;
     padding-top: 13px;
     margin-left: 115px;
     border-width: 3px;
     padding: 3px;
-    width: 580px;
-    height: 385px;
     box-sizing: border-box;
-    box-shadow: 3px 3px 6px;
     padding-left: 20px;
     padding-right: 12px;
     padding-bottom: 260px;
@@ -371,31 +364,23 @@ a {
 
 .image-card2 {
     background-color: #002354;
-    border-top: #00162e;
-    border-bottom: #00162e;
-    border-left: #00162e;
-    border-color: #108dcc;
     border-style: groove;
     border-radius: 20px;
     padding-top: 13px;
     margin-left: 625px;
     margin-top: -411px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 6px;
 }
 
 .image-card3 {
     background-color: #002354;
-    border-top: #00162e;
-    border-bottom: #00162e;
-    border-left: #00162e;
-    border-color: #108dcc;
     border-style: groove;
     border-radius: 15px;
     padding-top: 13px;
     margin-left: 115px;
     border-width: 3px;
     padding: 3px;
-    width: 580px;
-    height: 385px;
     box-sizing: border-box;
     box-shadow: 3px 3px 6px;
     padding-left: 20px;
@@ -406,26 +391,25 @@ a {
 
 .image-card4 {
     background-color: #002354;
-    border-top: #00162e;
-    border-bottom: #00162e;
-    border-left: #00162e;
-    border-color: #108dcc;
     border-style: groove;
     border-radius: 20px;
     padding-top: 13px;
     margin-left: 625px;
     margin-top: -411px;
+    box-sizing: border-box;
+    
 }
 
 .about-images .image-card1,
 .about-images .image-card2,
 .about-images .image-card3,
 .about-images .image-card4 {
-    width: 480px;
+    width: 440px;
     height: 395px;
     box-sizing: border-box;
     padding: 11px;
 }
+
 
 .about-images .about-image {
     display: block;
@@ -434,15 +418,17 @@ a {
     box-sizing: border-box;
     object-fit: contain;
     object-position: center;
-    background-color: white;
+    background-color: #002354;
 }
 
 .about-images {
     background-color: #002354;
-    border-style: groove;
-    border-radius: 20px;
     margin-left: 115px;
     margin-right: 126px;
+    border-style: groove;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px #002354;
+    border-color: #00162e;
 }
 
 .about-subtitle2 {
@@ -451,4 +437,23 @@ a {
     font-style: normal;
     font-size: 25px;
     padding-left: 30px;
+}
+
+[class^="image-card"] {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+[class^="image-card"]:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 12px 4px #108dcc;
+}
+
+[class^="image-card"] .about-image {
+    border-radius: 20px;
+    border-style: groove;
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
 }
