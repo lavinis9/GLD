@@ -575,15 +575,14 @@ a {
     transform: scaleX(1);
 }
 
-#Logo {
-    animation-name: AnimLogo;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
-}
-
-
 @keyframes AnimLogo {
     50% {
         transform: rotateY(360deg);
     }
+}
+
+#Logo:hover {
+    animation-name: AnimLogo;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
 }
