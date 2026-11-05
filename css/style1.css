@@ -574,3 +574,16 @@ a {
 .flsts:hover::after {
     transform: scaleX(1);
 }
+
+#Logo {
+    animation-name: AnimLogo;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes AnimLogo {
+    50% {
+        transform: rotateY(360deg);
+    }
+}
