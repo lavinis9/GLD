@@ -3,19 +3,25 @@ html {
 }
 
 body {
-    background-color: #00162e;
+    background-color: #080f1b;
 }
 
 .site-header {
-    background-color: #002354;
+    background-color: #001d2c;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1px 4px;
+    border-style: inset;
+    border-radius: none;
+    border-top: #080f1b;
+    border-left: #080f1b;
+    border-right: #080f1b;
+    border-color: #00172e90;
 }
 
 .main-nav {
-    background-color: #002354;
+    background-color: #001d2c;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -95,8 +101,8 @@ body {
     width: 0;
     min-width: 100%;
     padding: 10px 12px;
-    background-color: #002354;
-    border: 1px solid #0b3a6b;
+    background-color: #001d2c;
+    border: 1px solid #001d2c;
     border-top: none;
     font-size: 13px;
     font-weight: 600;
@@ -112,7 +118,7 @@ body {
 
 .dropdown1 a:hover,
 .dropdown2 a:hover {
-    background-color: #0b3a6b;
+    background-color: #001d2c;
     color: #F8F8F8;
 }
 
@@ -128,7 +134,7 @@ body {
 }
 
 .main-content {
-    background-color: #00162e;
+    background-color: #080f1b;
 }
 
 p {
@@ -139,13 +145,13 @@ p {
 }
 
 .site-footer {
-    background-color: #002354;
+    background-color: #001d2c;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
 }
 
 .footer-top {
-    background-color: #002354;
+    background-color: #001d2c;
 }
 
 #h301 {
@@ -162,7 +168,7 @@ p {
 }
 
 .sundesmoi {
-    background-color: #002354;
+    background-color: #001d2c;
     margin-left: 950px;
     display: flexbox;
     align-items: center;
@@ -171,7 +177,7 @@ p {
 }
 
 .footer-credits {
-    background-color: #002354;
+    background-color: #001d2c;
     margin-left: 0;
     padding-left: 0;
     text-align: center;
@@ -185,13 +191,13 @@ p {
 }
 
 .footer-bottom {
-    background-color: #002354;
+    background-color: #001d2c;
     padding-left: 630px;
     padding-bottom: 1px;
 }
 
 .about-intro {
-    background-color: #00162e;
+    background-color: #080f1b;
 }
 
 .about-subtitle {
@@ -202,12 +208,12 @@ p {
 }
 
 .about-text {
-    background-color: #002354;
+    background-color: #001d2c;
     border-style: groove;
     border-radius: 20px;
-    border-top: #00162e;
-    border-bottom: #00162e;
-    border-right: #00162e;
+    border-top: #080f1b;
+    border-bottom: #080f1b;
+    border-right: #080f1b;
     border-color: #108dcc;
     border-width: 3px;
     padding: 3px;
@@ -224,13 +230,13 @@ p {
 }
 
 .team {
-    background-color: #002354;
+    background-color: #001d2c;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-style: groove;
     border-radius: 20px;
-    border-top: #00162e;
-    border-bottom: #00162e;
-    border-right: #00162e;
+    border-top: #080f1b;
+    border-bottom: #080f1b;
+    border-right: #080f1b;
     border-color: #108dcc;
     border-width: 3px;
     padding: 3px;
@@ -263,12 +269,12 @@ p {
 }
 
 .team {
-    background-color: #002354;
+    background-color: #001d2c;
     border-style: groove;
     border-radius: 20px;
-    border-top: #00162e;
-    border-bottom: #00162e;
-    border-left: #00162e;
+    border-top: #080f1b;
+    border-bottom: #080f1b;
+    border-left: #080f1b;
     border-color: #108dcc;
     border-width: 3px;
     padding: 3px;
@@ -336,19 +342,8 @@ a {
     border-radius: 20px;
 }
 
-.flsts::after {
-    background-color: #108dcc;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.3s ease;
-}
-
-.flsts:hover::after {
-    transform: scaleX(1);
-}
-
 .image-card1 {
-    background-color: #002354;
+    background-color: #001d2c;
     border-style: groove;
     border-radius: 20px;
     padding-top: 13px;
@@ -363,7 +358,7 @@ a {
 }
 
 .image-card2 {
-    background-color: #002354;
+    background-color: #001d2c;
     border-style: groove;
     border-radius: 20px;
     padding-top: 13px;
@@ -374,7 +369,7 @@ a {
 }
 
 .image-card3 {
-    background-color: #002354;
+    background-color: #001d2c;
     border-style: groove;
     border-radius: 15px;
     padding-top: 13px;
@@ -390,14 +385,14 @@ a {
 }
 
 .image-card4 {
-    background-color: #002354;
+    background-color: #001d2c;
     border-style: groove;
     border-radius: 20px;
     padding-top: 13px;
     margin-left: 625px;
     margin-top: -411px;
     box-sizing: border-box;
-    
+
 }
 
 .about-images .image-card1,
@@ -418,17 +413,17 @@ a {
     box-sizing: border-box;
     object-fit: contain;
     object-position: center;
-    background-color: #002354;
+    background-color: #001d2c;
 }
 
 .about-images {
-    background-color: #002354;
+    background-color: #001d2c;
     margin-left: 115px;
     margin-right: 126px;
     border-style: groove;
     border-radius: 20px;
-    box-shadow: 3px 3px 6px #002354;
-    border-color: #00162e;
+    box-shadow: 3px 3px 6px #001d2c;
+    border-color: #080f1b;
     height: 940px;
 }
 
@@ -457,4 +452,16 @@ a {
     height: 320px;
     object-fit: cover;
     object-position: center;
+}
+
+@keyframes AnimLogo {
+    50% {
+        transform: rotateY(360deg);
+    }
+}
+
+#Logo:hover {
+    animation-name: AnimLogo;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
 }
