@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="128" viewBox="0 0 200 128" role="img" aria-label="Από την ανθρώπινη λογική (λάμπα ιδέας) σε λειτουργικό hardware (ολοκληρωμένο κύκλωμα)">
+  <defs>
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="78" y1="0" x2="116" y2="0">
+      <stop offset="0" stop-color="#2E7FD6"/>
+      <stop offset="1" stop-color="#6FC3FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123A6B"/>
+      <stop offset="1" stop-color="#081A30"/>
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="3">
+    <!-- λάμπα: η ανθρώπινη λογική -->
+    <path d="M40 20 a22 22 0 0 0 -13 39 c3 3 4 6 4 10 h18 c0 -4 1 -7 4 -10 a22 22 0 0 0 -13 -39 z" fill="url(#panel)" stroke="#2E7FD6"/>
+    <path d="M30 34 a12 12 0 0 1 8 -8" stroke="#6FC3FF" stroke-width="2.5"/>
+    <path d="M33 78 H47 M36 86 H44" stroke="#6FC3FF"/>
+    <!-- βέλος μετατροπής -->
+    <path d="M78 52 H116" stroke="url(#flow)"/>
+    <path d="M108 44 L116 52 L108 60" stroke="#6FC3FF"/>
+    <!-- ολοκληρωμένο κύκλωμα: το hardware -->
+    <rect x="136" y="28" width="46" height="46" rx="6" fill="url(#panel)" stroke="#2E7FD6"/>
+    <path d="M128 39 H136 M128 51 H136 M128 63 H136 M182 39 H190 M182 51 H190 M182 63 H190" stroke="#6FC3FF"/>
+    <path d="M147 20 V28 M159 20 V28 M171 20 V28 M147 74 V82 M159 74 V82 M171 74 V82" stroke="#6FC3FF"/>
+  </g>
+  <text x="159" y="57" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, Consolas, monospace" font-weight="500" font-size="16" fill="#EAF4FF"><tspan fill="#6FC3FF">1</tspan> 0</text>
+  <text x="40" y="120" text-anchor="middle" font-family="'IBM Plex Sans', system-ui, 'Segoe UI', sans-serif" font-size="12" fill="#8FB6DE">λογική</text>
+  <text x="159" y="120" text-anchor="middle" font-family="'IBM Plex Sans', system-ui, 'Segoe UI', sans-serif" font-size="12" fill="#8FB6DE">hardware</text>
+</svg>

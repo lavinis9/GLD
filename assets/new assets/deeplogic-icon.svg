@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none" role="img" aria-label="deeplogic">
+<defs>
+<linearGradient id="dl" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="120">
+<stop offset="0" stop-color="#2E7FD6"/>
+<stop offset="1" stop-color="#6FC3FF"/>
+</linearGradient>
+</defs>
+<g stroke="url(#dl)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<path d="M24 24H96L60 84Z"/>
+<path d="M41 35H79L60 66Z" opacity="0.5"/>
+<path d="M60 12V24"/>
+<circle cx="60" cy="7" r="4"/>
+<circle cx="60" cy="90" r="6"/>
+<path d="M60 96V107"/>
+</g>
+<circle cx="60" cy="113" r="5" fill="#6FC3FF"/>
+</svg>

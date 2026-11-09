@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="124" viewBox="0 0 160 124" role="img" aria-label="Ανοιχτό βιβλίο με λίστα θεμάτων και λογική πύλη">
+  <defs>
+    <linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="14" y1="0" x2="146" y2="0">
+      <stop offset="0" stop-color="#6FC3FF"/>
+      <stop offset="0.5" stop-color="#2E7FD6"/>
+      <stop offset="1" stop-color="#6FC3FF"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123A6B"/>
+      <stop offset="1" stop-color="#081A30"/>
+    </linearGradient>
+    <linearGradient id="gate" gradientUnits="userSpaceOnUse" x1="102" y1="0" x2="124" y2="0">
+      <stop offset="0" stop-color="#2E7FD6"/>
+      <stop offset="1" stop-color="#6FC3FF"/>
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M80 22 C62 12 34 12 14 20 V92 C34 84 62 84 80 94 Z" fill="url(#page)" stroke="url(#edge)" stroke-width="3"/>
+    <path d="M80 22 C98 12 126 12 146 20 V92 C126 84 98 84 80 94 Z" fill="url(#page)" stroke="url(#edge)" stroke-width="3"/>
+    <path d="M38 36 H62 M38 50 H62 M38 64 H62 M38 78 H52" stroke="#2E7FD6" stroke-width="2.5"/>
+    <path d="M102 36 H110 A14 14 0 0 1 110 64 H102 Z" stroke="url(#gate)" stroke-width="2.5"/>
+    <path d="M94 42 H102 M94 58 H102" stroke="#2E7FD6" stroke-width="2.5"/>
+    <path d="M124 50 H133" stroke="#6FC3FF" stroke-width="2.5"/>
+  </g>
+  <g fill="#6FC3FF">
+    <circle cx="28" cy="36" r="2.4"/>
+    <circle cx="28" cy="50" r="2.4"/>
+    <circle cx="28" cy="64" r="2.4"/>
+    <circle cx="28" cy="78" r="2.4"/>
+    <circle cx="137" cy="50" r="3.4"/>
+  </g>
+  <text x="80" y="118" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, Consolas, monospace" font-weight="500" font-size="12" letter-spacing="3" fill="#EAF4FF">AND OR NOT</text>
+</svg>
