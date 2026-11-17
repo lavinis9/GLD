@@ -6,6 +6,7 @@
     <title>GLD</title>
     <link rel="icon" href="assets/new assets/gld-logo-original-880.png">
     <link rel="stylesheet" href="css/style1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -19,6 +20,15 @@
             <button class="odd">
                 <a href="index.html">Αρχική</a>
             </button>
+            <div class="dropdown2">
+                <div id="Units" onchange="openPDF(this.value)">
+                    <button class="drpd">ΕΝΟΤΗΤΕΣ</button>
+                    <a href="pdfjs/web/viewer.html?file=../../units/Uni1.pdf" target="_blank">ΠΡΩΤΗ</a>
+                    <a href="pdfjs/web/viewer.html?file=../../units/Uni2.pdf" target="_blank">ΔΕΥΤΕΡΗ</a>
+                    <a href="pdfjs/web/viewer.html?file=../../units/Uni3.pdf" target="_blank">ΤΡΙΤΗ</a>
+                    <a href="pdfjs/web/viewer.html?file=../../units/Uni4.pdf" target="_blank">ΤΕΤΑΡΤΗ</a>
+                </div>
+            </div>
             <div class="dropdown1">
                 <div id="LExercise" onchange="openPDF(this.value)">
                     <button class="drpd">ΛΥΜΕΝΕΣ ΑΣΚΗΣΕΙΣ</button>
@@ -29,15 +39,6 @@
                 </div>
             </div>
 
-            <div class="dropdown2">
-                <div id="Units" onchange="openPDF(this.value)">
-                    <button class="drpd">ΕΝΟΤΗΤΕΣ</button>
-                    <a href="pdfjs/web/viewer.html?file=../../units/Uni1.pdf" target="_blank">ΠΡΩΤΗ</a>
-                    <a href="pdfjs/web/viewer.html?file=../../units/Uni2.pdf" target="_blank">ΔΕΥΤΕΡΗ</a>
-                    <a href="pdfjs/web/viewer.html?file=../../units/Uni3.pdf" target="_blank">ΤΡΙΤΗ</a>
-                    <a href="pdfjs/web/viewer.html?file=../../units/Uni4.pdf" target="_blank">ΤΕΤΑΡΤΗ</a>
-                </div>
-            </div>
             <script>
                 function openPDF(url) {
                     if (url) {
@@ -97,7 +98,7 @@
                             </li>
                         </ul>
                     </div>
-                    <article class="feature">
+                    <section class="feature">
                         <img src="assets/new assets/general-skills-720.png" alt="Δένδρο Σχεδίασης" width="100">
                         <h4 id="h410">Γενικές Ικανότητες</h4>
                         <p>
@@ -105,7 +106,7 @@
                             <strong id="ps">ανασυνθέτει</strong> σε βέλτιστες λύσεις,
                             αποκτώντας στρατηγική σκέψη και προσαρμοστικότητα.
                         </p>
-                    </article>
+                    </section>
                     <br>
                     <div class="content-section">
                         <img src="assets/new assets/book-logic-720.png" alt="Περιεχόμενο" width="95">
@@ -121,7 +122,7 @@
                             <br>
                             <li><span id="span5">Η μέθοδος του χάρτη Karnaugh.</span></li>
                             <br>
-                            <li><span id="span6">Βασικά συνδυαστικά κυκλώματα.(HA,FA,FFS,LS...)</span></li>
+                            <li><span id="span6">Βασικά συνδυαστικά κυκλώματα.(HA,FA,DCDS...)</span></li>
                             <br>
                         </ul>
                     </div>
@@ -146,7 +147,7 @@
                 <img src="assets/new assets/deeplogic-studio-icon-512.png" alt="Εφαρμογή Σχεδίασης" width="63">
                 <h2 class="section-title">Εφαρμογή</h2>
                 <p class="section-text">
-                    Όλα τα κυκλώματα της ιστοσελίδας υλοποιούνται με τη χρήση της
+                    Όλα τα κυκλώματα της ιστοσελίδας έχουν υλοποηθεί με τη χρήση της
                     εφαρμογής <strong id="ps">Digital Works</strong>.
                 </p>
 
