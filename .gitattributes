@@ -1,4 +1,7 @@
+build/** linguist-vendored
+assets/** linguist-vendored
+pdf.min.js linguist-vendored
+pdf.worker.min.js linguist-vendored
 *.js linguist-vendored
 *.mjs linguist-vendored
-*.map linguist-vendore
 *.html linguist-detectable=true
