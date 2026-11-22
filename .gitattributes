@@ -1,4 +1,4 @@
 *.js linguist-vendored
 *.mjs linguist-vendored
-*.cjs linguist-vendored
+*.map linguist-vendore
 *.html linguist-detectable=true
