@@ -4,4 +4,6 @@ pdf.min.js linguist-vendored
 pdf.worker.min.js linguist-vendored
 *.js linguist-vendored
 *.mjs linguist-vendored
+css/** linguist-vendored
+*.css linguist-vendored
 *.html linguist-detectable=true
